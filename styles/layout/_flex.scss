@@ -1,0 +1,22 @@
+.grid__flex{
+    @extend %flex;
+
+    &--align-center{
+        @extend %align-center;
+    }
+    &--justify-center{
+        @extend %justify-center;
+    }
+    &--justify-between{
+        @extend %justify-between;
+    }
+    &--justify-end{
+        @extend %justify-end;
+    }
+    &--direction-colomn{
+        @extend %direction-colomn;
+    }
+    &--wrap{
+        @extend %wrap;
+    }
+}

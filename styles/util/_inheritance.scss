@@ -1,0 +1,22 @@
+//flex
+%flex{
+    display: flex !important;
+}
+%align-center{
+    align-items: center !important;
+}
+%justify-center{
+    justify-content: center !important;
+}
+%justify-between{
+    justify-content: space-between !important;
+}
+%justify-end{
+    justify-content: flex-end !important;
+}
+%direction-colomn{
+    flex-direction: column !important;
+}
+%wrap{
+    flex-wrap: wrap !important;
+}

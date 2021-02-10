@@ -1,0 +1,29 @@
+:root {
+    --space-unit:  1em;
+}
+
+:root, * {
+    --space-md:    calc(1.25 * var(--space-unit));
+    --component-padding: var(--space-md);
+}
+.container {
+    width: calc(100% - 2*var(--component-padding));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0 !important;
+}

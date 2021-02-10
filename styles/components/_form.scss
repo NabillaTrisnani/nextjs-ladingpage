@@ -1,0 +1,32 @@
+.form-checkbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-check {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 300;
+    margin-right: 10px;
+    position: relative;
+
+    input[type=checkbox] {
+        visibility: hidden;
+        margin: 0;
+    }
+    label {
+        cursor: pointer;
+        border: 1px solid #979797;
+        border-radius: 8px;
+        padding: 4px 6px;
+    }
+    label:after {
+        content: '';
+        position: absolute;
+        border-radius: 8px;
+    }
+    input[type=checkbox]:checked + label {
+        background: #FF0000;
+        border: 1px solid #FF0000;
+        color: #fff;
+    }
+}
