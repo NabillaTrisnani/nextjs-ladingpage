@@ -1,7 +1,10 @@
 import Link from 'next/link'
 
 function Header() {
-
+  const [showMe, setShowMe] = useState(false);
+  function toggle(){
+    setShowMe(!showMe);
+  }
   return (
     <div>
       <nav className="navbar">
@@ -21,7 +24,7 @@ function Header() {
           </div>
         </div>
       </nav>
-      <section className="menu-overlay">
+      <section className="menu-overlay" style={{display: showMe?"block":"none"}}>
         <div className="container">
           <ul className="nav-primary">
             <li>

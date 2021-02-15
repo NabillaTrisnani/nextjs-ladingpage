@@ -1,0 +1,175 @@
+.about{
+    .headline {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+        .text__number {
+            color: #808080;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            line-height: 24px;
+            text-align: right;
+            width: 98.5px;
+            border-top: 5px solid #000000;
+            margin-right: 6px;
+        }
+        .text__title {
+            color: #000000;
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: -2px;
+            line-height: 60px;
+        }
+    }
+    .quotes {
+        margin-top: 3em;
+        margin-bottom: 2em;
+        font-size: 64px;
+        color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 80px;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+
+        p{
+            width: 90%;
+        }
+    }
+    .about__header{
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+
+        .header__title{
+            padding: 0;
+            margin-bottom: 4.5rem !important;
+            color: #000000;
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: -3px;
+            line-height: 74px;
+        }
+        .header__subtitle{
+            color: #808080;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: normal;
+            margin-bottom: 1rem !important;
+        }
+    }
+    .about__hero{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+        .hero__title {
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: -3px;
+            line-height: 74px;
+            padding-top: 0;
+        }
+        .hero__subtitle {
+            font-weight: 400;
+            color: #808080 !important;
+        }
+        .hero__desc {
+            color: #000000;
+            font-size: 36px;
+            font-weight: 300;
+            line-height: 40px;
+        }
+    }
+    .about__motto{
+        img{
+            width: 100%;
+            filter: grayscale(100%);
+        }
+        .motto__text{
+            max-width: 60%;
+            position: absolute;
+            left: 80px;
+            z-index: 9;
+            font-size: 88px;
+            color: white;
+            line-height: 101px;
+            letter-spacing: -0.02em;
+        }
+    }
+    .about-us{
+        padding: 100px 0;
+        .text__title--size {
+            font-size: 36px;
+            letter-spacing: -1.5px;
+            line-height: 40px;
+        }
+        .client {
+            margin-top: 5em;
+        }
+        .text-self {
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 70px;
+            letter-spacing: -0.02em;
+        }
+    }
+    .about__team{
+        background: #BDBDBD;
+        padding: 100px 0;
+        .profile-title{
+            .text__title {
+                color: #000000;
+                font-size: 32px;
+                font-weight: 600;
+                letter-spacing: -0.02em;
+                line-height: 37px;
+            }
+            .text__subtitle {
+                color: #000000;
+                font-size: 28px;
+                font-weight: 300;
+                letter-spacing: -0.38px;
+                line-height: 40px;
+                margin-top: -6px;
+            }
+        }
+        .profile-desc {
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: -0.0038em;
+            font-weight: 300;
+            color: rgba(0, 0, 0, 0.6);
+            width: 95%;
+        }
+        .quotes{
+            color: black;
+        }
+        .quotes-down {
+            justify-content: flex-end;
+        }
+    }
+}
+@media (min-width: 1200px){
+    .text-title-about {
+        width: 50%;
+    }
+    .capabi {
+        padding: 0 5%;
+    }
+    .profile-desc-chief {
+        width: 80%;
+    }
+}
+@media (min-width: 992px){
+    .profile-desc {
+        min-height: 230px;
+    }
+}

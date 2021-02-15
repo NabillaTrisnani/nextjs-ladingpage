@@ -1,0 +1,121 @@
+.detail-project{
+    .detail__title {
+        color: #000000;
+        font-size: 64px;
+        font-weight: 500;
+        letter-spacing: -3px;
+        line-height: 58px;
+    }
+    .detail__subtitle {
+        color: #808080;
+        font-size: 44px;
+        font-weight: 300;
+        letter-spacing: -0.75px;
+        line-height: 56px;
+    }
+    .our-time {
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: -0.02em;
+        color: #808080;
+    }
+    .who-work {
+        width: 70%;
+        margin: auto;
+    }
+    .team-work {
+        margin-bottom: 1.3em;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #BDBDBD;
+
+        .title-desc {
+            line-height: 18px;
+            font-weight: 300;
+            font-size: 16px;
+            letter-spacing: -0.02em;
+            text-transform: uppercase;
+        }
+        .desc {
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+    }
+    .share {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.02em;
+            margin-right: 1em;
+        }
+        img {
+            margin-right: 1em;
+            padding: 10px;
+        }
+    }
+    .headline {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+
+        .text__number {
+            color: #808080;
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: -0.5px;
+            line-height: 24px;
+            text-align: right;
+            width: 98.5px;
+            border-top: 5px solid #000000;
+            margin-right: 6px;
+        }
+        .text__title {
+            text-transform: capitalize;
+        }
+        .text__title {
+            color: #000000;
+            font-size: 64px;
+            font-weight: 500;
+            letter-spacing: -2px;
+            line-height: 60px;
+        }
+    }
+    .profil-testi {
+        display: flex;
+        justify-content: center !important;
+        flex-direction: column;
+
+        .name-testimoni {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -0.02em;
+            margin-right: 1em;
+        }
+        .name-desc {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: -0.02em;
+            margin-right: 1em;
+        }
+    }
+    .next-pro {
+        cursor: pointer;
+        font-size: 64px;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        padding-bottom: 5px;
+        text-decoration: underline;
+        word-break: break-word;
+    }
+    .next-arrow {
+        cursor: pointer;
+        margin-left: 16px;
+    }
+}

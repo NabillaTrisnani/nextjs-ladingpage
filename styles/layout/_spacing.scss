@@ -3,8 +3,8 @@
 }
 
 :root, * {
-    --space-md:    calc(1.25 * var(--space-unit));
-    --component-padding: var(--space-md);
+    --space-xxl:   calc(5.25 * var(--space-unit));
+    --component-padding: var(--space-xxl);
 }
 .container {
     width: calc(100% - 2*var(--component-padding));
@@ -12,6 +12,9 @@
     margin-right: auto;
 }
 
+.m-0 {
+    margin: 0 !important;
+}
 .mt-4, .my-4 {
     margin-top: 1.5rem !important;
 }
@@ -26,4 +29,10 @@
 }
 .mb-0, .my-0 {
     margin-bottom: 0 !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
 }

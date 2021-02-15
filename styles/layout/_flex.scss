@@ -4,6 +4,9 @@
     &--align-center{
         @extend %align-center;
     }
+    &--align-end{
+        @extend %align-end;
+    }
     &--justify-center{
         @extend %justify-center;
     }
@@ -15,6 +18,9 @@
     }
     &--direction-colomn{
         @extend %direction-colomn;
+    }
+    &--direction-row{
+        @extend %direction-row;
     }
     &--wrap{
         @extend %wrap;

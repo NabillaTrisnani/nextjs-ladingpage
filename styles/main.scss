@@ -8,11 +8,16 @@
 @import 'components/navbar';
 @import 'components/button';
 @import 'components/form';
+@import 'components/image';
+@import 'components/breadcrums';
 
 @import 'layout/spacing';
 @import 'layout/grid';
 @import 'layout/flex';
+@import 'layout/display';
 
 @import 'pages/home';
 @import 'pages/work';
 @import 'pages/contact';
+@import 'pages/about';
+@import 'pages/detail-project';

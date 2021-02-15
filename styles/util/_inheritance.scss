@@ -5,6 +5,9 @@
 %align-center{
     align-items: center !important;
 }
+%align-end{
+    align-items: end !important;
+}
 %justify-center{
     justify-content: center !important;
 }
@@ -16,6 +19,9 @@
 }
 %direction-colomn{
     flex-direction: column !important;
+}
+%direction-row{
+    flex-direction: row !important;
 }
 %wrap{
     flex-wrap: wrap !important;
